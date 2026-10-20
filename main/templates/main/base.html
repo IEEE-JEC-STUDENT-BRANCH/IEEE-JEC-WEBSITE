@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}IEEE Student Branch - JEC{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 flex flex-col min-h-screen">
+    <nav class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800 px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-xl font-bold tracking-wider text-blue-500">IEEE SB JEC</a>
+        <div class="space-x-6 text-sm font-medium">
+            <a href="#hero" class="hover:text-blue-400">Home</a>
+            <a href="#workshops" class="hover:text-blue-400">Workshops</a>
+            <a href="#competitions" class="hover:text-blue-400">Competitions</a>
+            <a href="#blogs" class="hover:text-blue-400">Blogs</a>
+            <a href="#team" class="hover:text-blue-400">Team</a>
+        </div>
+    </nav>
+    <main class="flex-grow">
+        {% block content %}{% endblock %}
+    </main>
+    <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-400">
+        © 2026 IEEE Student Branch, Jabalpur Engineering College.
+    </footer>
+</body>
+</html>
