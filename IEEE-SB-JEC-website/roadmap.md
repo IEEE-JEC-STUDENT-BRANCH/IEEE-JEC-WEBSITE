@@ -1,0 +1,7 @@
+- [x] Build IEEE SB JEC homepage from video
+- [x] Use the exact college photo from the video in the slider
+- [x] Use the real admin block photo in slide 2
+- [x] Use the real MiG-21 photo in the About section
+- [ ] Replace slide 3 photo with a real campus photo (waiting on user's photo)
+- [ ] Fill About text, branch email and social links (waiting on user's details)
+- [ ] Connect the contact form so messages are delivered
